@@ -45,7 +45,7 @@ import vehicle from './Vehicle';
                             return (
                                 <>
                                 <Home/>
-                                <p>Awsome Plesae login</p>
+                                <p>Awsome! Plesae login</p>
                                 <button onClick={this.doLogin}>Login</button>
                                 </>
                             )
