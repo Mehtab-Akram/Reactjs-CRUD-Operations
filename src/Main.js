@@ -55,6 +55,7 @@ import vehicle from './Vehicle';
                             if(this.state.authenticated){
                                 return (
                                     <>
+                                    
                                     <Home/>
                                     <p>Welcome!</p>
                                     <button onClick = {this.doLogout}>Logout</button>
