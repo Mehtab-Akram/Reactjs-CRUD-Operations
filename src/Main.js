@@ -45,7 +45,7 @@ import vehicle from './Vehicle';
                             return (
                                 <>
                                 <Home/>
-                                <p>Awsome! Plesae login</p>
+                                <p>Awsome! Plesae login or Browse if you want. :)</p>
                                 <button onClick={this.doLogin}>Login</button>
                                 </>
                             )
@@ -55,7 +55,7 @@ import vehicle from './Vehicle';
                             if(this.state.authenticated){
                                 return (
                                     <>
-                                    
+
                                     <Home/>
                                     <p>Welcome!</p>
                                     <button onClick = {this.doLogout}>Logout</button>
